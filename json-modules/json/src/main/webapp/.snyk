@@ -1,0 +1,10 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:mime:20170907':
+    - jsonforms > json-refs > path-loader > superagent > mime:
+        patched: '2024-09-11T00:06:21.344Z'
+        id: 'npm:mime:20170907'
+        path: jsonforms > json-refs > path-loader > superagent > mime
